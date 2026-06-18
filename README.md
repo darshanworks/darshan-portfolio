@@ -22,7 +22,7 @@ This portfolio serves as a central hub for recruiters, developers, and visitors 
 ## 🌐 Live Demo
 
 ```bash
-https://your-portfolio-link.github.io/
+https://darshanworks.github.io/darshan-portfolio/
 ```
 
 ---
