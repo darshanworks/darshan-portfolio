@@ -1,607 +1,910 @@
 <!doctype html>
-<html lang="en" class="hydrated">
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Darshan Malagonvkar — frontend developer portfolio featuring web development, IoT and practical software projects."
+    />
+    <meta name="theme-color" content="#f5f7fa" />
+    <title>Darshan Malagonvkar | Developer Portfolio</title>
 
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-  <style data-styles="">
-    ion-icon {
-      visibility: hidden;
-    }
+    <link
+      rel="shortcut icon"
+      href="assets/images/myavatar.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/mediaqueries.css" />
 
-    .hydrated {
-      visibility: inherit;
-    }
-  </style>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Hello, Welcome to My Portfolio</title>
-  <link rel="shortcut icon" href="./assets/images/myavatar.png" type="image/x-icon" />
-  <link rel="stylesheet" href="./assets/css/style.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com/" />
-  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
-  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.6.0/fonts/remixicon.css"
+    />
+  </head>
 
-<body>
-  <main>
-    <!-- #SIDEBAR -->
-    <aside class="sidebar" data-sidebar="">
-      <div class="sidebar-info">
-        <figure class="avatar-box" style="margin-top: -10px">
-          <img src="./assets/images/avatar.png" alt="Richard hanrick" width="80" class="myavatar" />
-        </figure>
-        <div class="info-content">
-          <h1 class="name" title="Richard hanrick">Darshan Malagonvkar</h1>
-          <p style="margin-bottom: 6px" class="title">BCA Graduate</p>
-          <p class="title">Open For Work Opportunities</p>
-        </div>
-        <button class="info_more-btn" data-sidebar-btn="">
-          <span>Show Contacts</span>
-          <ion-icon name="chevron-down" role="img" class="md hydrated" aria-label="chevron down"><template
-              shadowrootmode="open">
-              <div class="icon-inner">
-                <svg xmlns="http://www.w3.org/2000/svg" class="ionicon s-ion-icon" viewBox="0 0 512 512">
-                  <title>Chevron Down</title>
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="48" d="M112 184l144 144 144-144"
-                    class="ionicon-fill-none"></path>
-                </svg>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <div class="site-shell">
+      <aside class="profile-panel" aria-label="Profile">
+        <div class="profile-panel__inner">
+          <button
+            class="profile-mobile-toggle"
+            type="button"
+            aria-expanded="false"
+            aria-controls="profile-details"
+          >
+            <span class="mobile-profile-avatar">
+              <img
+                src="assets/images/myavatar.png"
+                alt="Darshan Malagonvkar profile photo"
+              />
+              <span class="mobile-status-dot" aria-hidden="true"></span>
+            </span>
+            <span class="mobile-profile-copy">
+              <strong>Darshan Malagonvkar</strong>
+              <small>BCA Graduate</small>
+              <small>Open For Work Opportunities</small>
+            </span>
+            <i class="ri-arrow-down-s-line" aria-hidden="true"></i>
+          </button>
+
+          <div class="profile-top">
+            <div class="avatar-wrap" data-tilt>
+              <img
+                src="assets/images/myavatar.png"
+                alt="Darshan Malagonvkar profile photo"
+                class="profile-avatar"
+              />
+              <span class="status-dot" title="Open to work"></span>
+            </div>
+
+            <div class="profile-heading">
+              <p class="eyebrow">Frontend Developer</p>
+              <h1>Darshan<br />Malagonvkar</h1>
+              <p class="profile-summary">
+                Building practical web experiences and IoT solutions with clean,
+                maintainable code.
+              </p>
+            </div>
+          </div>
+
+          <div class="profile-details" id="profile-details">
+            <div class="profile-badges" aria-label="Professional status">
+              <span
+                ><i class="ri-code-s-slash-line" aria-hidden="true"></i> Web
+                Development</span
+              >
+              <span
+                ><i class="ri-briefcase-4-line" aria-hidden="true"></i> Open for
+                opportunities</span
+              >
+            </div>
+
+            <div class="profile-divider"></div>
+
+            <div class="profile-contact">
+              <a class="contact-row" href="mailto:darshan08m@gmail.com">
+                <span class="contact-icon"
+                  ><i class="ri-mail-line" aria-hidden="true"></i
+                ></span>
+                <span
+                  ><small>Email</small
+                  ><strong>darshan08m@gmail.com</strong></span
+                >
+              </a>
+
+              <a class="contact-row" href="tel:+917249580848">
+                <span class="contact-icon"
+                  ><i class="ri-phone-line" aria-hidden="true"></i
+                ></span>
+                <span><small>Phone</small><strong>+91 7249580848</strong></span>
+              </a>
+
+              <a
+                class="contact-row"
+                href="https://github.com/darshanworks"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span class="contact-icon"
+                  ><i class="ri-github-line" aria-hidden="true"></i
+                ></span>
+                <span
+                  ><small>GitHub</small
+                  ><strong>github.com/darshanworks</strong></span
+                >
+              </a>
+
+              <a
+                class="contact-row"
+                href="https://www.linkedin.com/in/darshan-malagonvkar-61a244339/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span class="contact-icon"
+                  ><i class="ri-linkedin-box-line" aria-hidden="true"></i
+                ></span>
+                <span
+                  ><small>LinkedIn</small
+                  ><strong>Darshan Malagonvkar</strong></span
+                >
+              </a>
+
+              <div class="contact-row">
+                <span class="contact-icon"
+                  ><i class="ri-map-pin-2-line" aria-hidden="true"></i
+                ></span>
+                <span
+                  ><small>Location</small
+                  ><strong>Virar, Maharashtra, India</strong></span
+                >
               </div>
-            </template></ion-icon>
-        </button>
-      </div>
-      <div class="sidebar-info_more">
-        <div class="separator"></div>
-        <ul class="contacts-list">
-          <li class="contact-item">
-            <div class="icon-box">
-              <ion-icon name="mail-outline" role="img" class="md hydrated" aria-label="mail outline"><template
-                  shadowrootmode="open">
-                  <div class="icon-inner">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="ionicon s-ion-icon" viewBox="0 0 512 512">
-                      <title>Mail</title>
-                      <rect x="48" y="96" width="416" height="320" rx="40" ry="40" stroke-linecap="round"
-                        stroke-linejoin="round" class="ionicon-fill-none ionicon-stroke-width"></rect>
-                      <path stroke-linecap="round" stroke-linejoin="round" d="M112 160l144 112 144-112"
-                        class="ionicon-fill-none ionicon-stroke-width"></path>
-                    </svg>
-                  </div>
-                </template></ion-icon>
-            </div>
-            <div class="contact-info">
-              <p class="contact-title">Email</p>
-              <a href="mailto:darshan08m@gmail.com" class="contact-link">darshan08m@gmail.com</a>
-            </div>
-          </li>
-          <li class="contact-item">
-            <div class="icon-box">
-              <ion-icon name="phone-portrait-outline" role="img" class="md hydrated"
-                aria-label="phone portrait outline"><template shadowrootmode="open">
-                  <div class="icon-inner">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="ionicon s-ion-icon" viewBox="0 0 512 512">
-                      <title>Phone Portrait</title>
-                      <rect x="128" y="16" width="256" height="480" rx="48" ry="48" stroke-linecap="round"
-                        stroke-linejoin="round" class="ionicon-fill-none ionicon-stroke-width"></rect>
-                      <path d="M176 16h24a8 8 0 018 8h0a16 16 0 0016 16h64a16 16 0 0016-16h0a8 8 0 018-8h24"
-                        stroke-linecap="round" stroke-linejoin="round" class="ionicon-fill-none ionicon-stroke-width">
-                      </path>
-                    </svg>
-                  </div>
-                </template></ion-icon>
-            </div>
-            <div class="contact-info">
-              <p class="contact-title">Phone</p>
-              <a href="tel:+917249580848" class="contact-link">+91 7249580848</a>
-            </div>
-          </li>
-          <li class="contact-item">
-            <div class="icon-box">
-              <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="25" height="25" viewBox="0 0 50 50"
-                style="fill: #0ea5e9">
-                <path
-                  d="M 25 2 C 12.311335 2 2 12.311335 2 25 C 2 37.688665 12.311335 48 25 48 C 37.688665 48 48 37.688665 48 25 C 48 12.311335 37.688665 2 25 2 z M 25 4 C 36.607335 4 46 13.392665 46 25 C 46 25.071371 45.994849 25.141688 45.994141 25.212891 C 45.354527 25.153853 44.615508 25.097776 43.675781 25.064453 C 42.347063 25.017336 40.672259 25.030987 38.773438 25.125 C 38.843852 24.634651 38.893205 24.137377 38.894531 23.626953 C 38.991361 21.754332 38.362521 20.002464 37.339844 18.455078 C 37.586913 17.601352 37.876747 16.515218 37.949219 15.283203 C 38.031819 13.878925 37.910599 12.321765 36.783203 11.269531 L 36.494141 11 L 36.099609 11 C 33.416539 11 31.580023 12.12321 30.457031 13.013672 C 28.835529 12.386022 27.01222 12 25 12 C 22.976367 12 21.135525 12.391416 19.447266 13.017578 C 18.324911 12.126691 16.486785 11 13.800781 11 L 13.408203 11 L 13.119141 11.267578 C 12.020956 12.287321 11.919778 13.801759 11.988281 15.199219 C 12.048691 16.431506 12.321732 17.552142 12.564453 18.447266 C 11.524489 20.02486 10.900391 21.822018 10.900391 23.599609 C 10.900391 24.111237 10.947969 24.610071 11.017578 25.101562 C 9.2118173 25.017808 7.6020996 25.001668 6.3242188 25.046875 C 5.3845143 25.080118 4.6454422 25.135713 4.0058594 25.195312 C 4.0052628 25.129972 4 25.065482 4 25 C 4 13.392665 13.392665 4 25 4 z M 14.396484 13.130859 C 16.414067 13.322043 17.931995 14.222972 18.634766 14.847656 L 19.103516 15.261719 L 19.681641 15.025391 C 21.263092 14.374205 23.026984 14 25 14 C 26.973016 14 28.737393 14.376076 30.199219 15.015625 L 30.785156 15.273438 L 31.263672 14.847656 C 31.966683 14.222758 33.487184 13.321554 35.505859 13.130859 C 35.774256 13.575841 36.007486 14.208668 35.951172 15.166016 C 35.883772 16.311737 35.577304 17.559658 35.345703 18.300781 L 35.195312 18.783203 L 35.494141 19.191406 C 36.483616 20.540691 36.988121 22.000937 36.902344 23.544922 L 36.900391 23.572266 L 36.900391 23.599609 C 36.900391 26.095064 36.00178 28.092339 34.087891 29.572266 C 32.174048 31.052199 29.152663 32 24.900391 32 C 20.648118 32 17.624827 31.052192 15.710938 29.572266 C 13.797047 28.092339 12.900391 26.095064 12.900391 23.599609 C 12.900391 22.134903 13.429308 20.523599 14.40625 19.191406 L 14.699219 18.792969 L 14.558594 18.318359 C 14.326866 17.530484 14.042825 16.254103 13.986328 15.101562 C 13.939338 14.14294 14.166221 13.537027 14.396484 13.130859 z M 8.8847656 26.021484 C 9.5914575 26.03051 10.40146 26.068656 11.212891 26.109375 C 11.290419 26.421172 11.378822 26.727898 11.486328 27.027344 C 8.178972 27.097092 5.7047309 27.429674 4.1796875 27.714844 C 4.1152068 27.214494 4.0638483 26.710021 4.0351562 26.199219 C 5.1622058 26.092262 6.7509972 25.994233 8.8847656 26.021484 z M 41.115234 26.037109 C 43.247527 26.010033 44.835728 26.108156 45.962891 26.214844 C 45.934234 26.718328 45.883749 27.215664 45.820312 27.708984 C 44.24077 27.41921 41.699674 27.086688 38.306641 27.033203 C 38.411945 26.739677 38.499627 26.438219 38.576172 26.132812 C 39.471291 26.084833 40.344564 26.046896 41.115234 26.037109 z M 11.912109 28.019531 C 12.508849 29.215327 13.361516 30.283019 14.488281 31.154297 C 16.028825 32.345531 18.031623 33.177838 20.476562 33.623047 C 20.156699 33.951698 19.86578 34.312595 19.607422 34.693359 L 19.546875 34.640625 C 19.552375 34.634325 19.04975 34.885878 18.298828 34.953125 C 17.547906 35.020374 16.621615 35 15.800781 35 C 14.575781 35 14.03621 34.42121 13.173828 33.367188 C 12.696283 32.72356 12.114101 32.202331 11.548828 31.806641 C 10.970021 31.401475 10.476259 31.115509 9.8652344 31.013672 L 9.7832031 31 L 9.6992188 31 C 9.2325521 31 8.7809835 31.03379 8.359375 31.515625 C 8.1485707 31.756544 8.003277 32.202561 8.0976562 32.580078 C 8.1920352 32.957595 8.4308563 33.189581 8.6445312 33.332031 C 10.011254 34.24318 10.252795 36.046511 11.109375 37.650391 C 11.909298 39.244315 13.635662 40 15.400391 40 L 18 40 L 18 44.802734 C 10.967811 42.320535 5.6646795 36.204613 4.3320312 28.703125 C 5.8629338 28.414776 8.4265387 28.068108 11.912109 28.019531 z M 37.882812 28.027344 C 41.445538 28.05784 44.08105 28.404061 45.669922 28.697266 C 44.339047 36.201504 39.034072 42.31987 32 44.802734 L 32 39.599609 C 32 38.015041 31.479642 36.267712 30.574219 34.810547 C 30.299322 34.368135 29.975945 33.949736 29.615234 33.574219 C 31.930453 33.11684 33.832364 32.298821 35.3125 31.154297 C 36.436824 30.284907 37.287588 29.220424 37.882812 28.027344 z M 23.699219 34.099609 L 26.5 34.099609 C 27.312821 34.099609 28.180423 34.7474 28.875 35.865234 C 29.569577 36.983069 30 38.484177 30 39.599609 L 30 45.398438 C 28.397408 45.789234 26.72379 46 25 46 C 23.27621 46 21.602592 45.789234 20 45.398438 L 20 39.599609 C 20 38.508869 20.467828 37.011307 21.208984 35.888672 C 21.950141 34.766037 22.886398 34.099609 23.699219 34.099609 z M 12.308594 35.28125 C 13.174368 36.179258 14.222525 37 15.800781 37 C 16.579948 37 17.552484 37.028073 18.476562 36.945312 C 18.479848 36.945018 18.483042 36.943654 18.486328 36.943359 C 18.36458 37.293361 18.273744 37.645529 18.197266 38 L 15.400391 38 C 14.167057 38 13.29577 37.55443 12.894531 36.751953 L 12.886719 36.738281 L 12.880859 36.726562 C 12.716457 36.421191 12.500645 35.81059 12.308594 35.28125 z">
-                </path>
-              </svg>
-            </div>
-            <div class="contact-info">
-              <p class="contact-title">Github</p>
-              <a href="https://github.com/darshanworks" class="contact-link" target="_blank">Github/darshanworks</a>
-            </div>
-          </li>
-          <li class="contact-item">
-            <div class="icon-box">
-              <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0,0,256,256"
-                style="fill: #0ea5e9">
-                <g fill="#0ea5e9" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
-                  stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
-                  font-family="none" font-weight="none" font-size="none" text-anchor="none"
-                  style="mix-blend-mode: normal">
-                  <g transform="scale(4,4)">
-                    <path
-                      d="M23.77344,12c-10.918,0 -11.77344,0.85444 -11.77344,11.77344v16.45312c0,10.918 0.85544,11.77344 11.77344,11.77344h16.45312c10.918,0 11.77344,-0.85444 11.77344,-11.77344v-16.45312c0,-10.919 -0.85444,-11.77344 -11.77344,-11.77344zM21.16797,16h21.66406c4.793,0 5.16797,0.37497 5.16797,5.16797v21.66406c0,4.793 -0.37597,5.16797 -5.16797,5.16797h-21.66406c-4.793,0 -5.16797,-0.37597 -5.16797,-5.16797v-21.66406c0,-4.793 0.37497,-5.16797 5.16797,-5.16797zM22.50195,18.50391c-1.629,0 -2.94922,1.32027 -2.94922,2.94727c0,1.627 1.31922,2.94922 2.94922,2.94922c1.625,0 2.94531,-1.32122 2.94531,-2.94922c0,-1.625 -1.32031,-2.94727 -2.94531,-2.94727zM37.93359,26.32227c-2.46,0 -4.11016,1.34991 -4.78516,2.62891h-0.07031v-2.22266h-4.84961v16.27148h5.05273v-8.05078c0,-2.123 0.40611,-4.17773 3.03711,-4.17773c2.594,0 2.62695,2.42941 2.62695,4.31641v7.91211h5.05469v-8.92578c0,-4.382 -0.94541,-7.75195 -6.06641,-7.75195zM19.97266,26.72852v16.27148h5.05664v-16.27148z">
-                    </path>
-                  </g>
-                </g>
-              </svg>
-            </div>
-            <div class="contact-info">
-              <p class="contact-title">LinkedIn</p>
-              <a href="https://www.linkedin.com/in/darshan-malagonvkar-61a244339/" class="contact-link"
-                target="_blank">LinkedIn/DarshanMalagonvkar</a>
-            </div>
-          </li>
-          <li class="contact-item">
-            <div class="icon-box">
-              <ion-icon name="document-text-outline"></ion-icon>
-            </div>
 
-            <div class="contact-info">
-              <p class="contact-title">Resume</p>
-
-              <a href="./assets/resume/Darshan_Resume.pdf" class="contact-link" target="_blank">
-                View Resume
+              <a
+                class="contact-row"
+                href="assets/resume/Darshan_Resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span class="contact-icon"
+                  ><i class="ri-file-text-line" aria-hidden="true"></i
+                ></span>
+                <span
+                  ><small>Resume</small
+                  ><strong
+                    >View resume
+                    <i
+                      class="ri-arrow-right-up-line"
+                      aria-hidden="true"
+                    ></i></strong
+                ></span>
               </a>
             </div>
-          </li>
-          <li class="contact-item">
-            <div class="icon-box">
-              <ion-icon name="location-outline" role="img" class="md hydrated" aria-label="location outline"><template
-                  shadowrootmode="open">
-                  <div class="icon-inner">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="ionicon s-ion-icon" viewBox="0 0 512 512">
-                      <title>Location</title>
-                      <path
-                        d="M256 48c-79.5 0-144 61.39-144 137 0 87 96 224.87 131.25 272.49a15.77 15.77 0 0025.5 0C304 409.89 400 272.07 400 185c0-75.61-64.5-137-144-137z"
-                        stroke-linecap="round" stroke-linejoin="round" class="ionicon-fill-none ionicon-stroke-width">
-                      </path>
-                      <circle cx="256" cy="192" r="48" stroke-linecap="round" stroke-linejoin="round"
-                        class="ionicon-fill-none ionicon-stroke-width"></circle>
-                    </svg>
-                  </div>
-                </template></ion-icon>
+
+            <div class="profile-divider"></div>
+
+            <div class="profile-footer">
+              <div>
+                <p class="profile-footer__label">Currently focused on</p>
+                <p class="profile-footer__value">Frontend · JavaScript · IoT</p>
+              </div>
+              <div class="profile-socials" aria-label="Social links">
+                <a
+                  href="https://github.com/darshanworks"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="GitHub"
+                  ><i class="ri-github-line"></i
+                ></a>
+                <a
+                  href="https://www.linkedin.com/in/darshan-malagonvkar-61a244339/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="LinkedIn"
+                  ><i class="ri-linkedin-box-line"></i
+                ></a>
+                <a
+                  href=""
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="HackerRank"
+                  ><i class="ri-terminal-box-line"></i
+                ></a>
+              </div>
             </div>
-            <div class="contact-info">
-              <p class="contact-title">Location</p>
-              <address>Virar, Maharashtra, India</address>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </aside>
-
-    <!-- #main-content -->
-    <div class="main-content">
-      <!-- #ABOUT -->
-      <article class="about active" data-page="about">
-        <header>
-          <h2 class="h2 article-title">About me</h2>
-        </header>
-
-        <section class="about-text">
-          <p>
-            I’m a Bachelor of Computer Applications (BCA) graduate with a strong focus on web
-            development and IoT-based solutions. I’ve built projects like a
-            smart agriculture monitoring system that uses sensors and cloud
-            integration to track real-time data and improve decision-making.
-          </p>
-
-          <p>
-            I work with C/C++, Python, and JavaScript, and I’m comfortable
-            building and deploying projects from scratch. I prefer hands-on
-            learning and spend most of my time improving by working on real
-            problems rather than just theory. I’m currently looking for an
-            opportunity where I can contribute to real-world applications,
-            grow as a developer, and work with a team that values practical
-            problem-solving.
-          </p>
-
-          <a href="./assets/resume/Darshan_Resume.pdf" download target="_blank" style="
-                display: inline-block;
-                margin-top: 10px;
-                padding: 4px 10px;
-                background-color: #38bdf8;
-                color: white;
-                text-decoration: none;
-                font-family: Arial, sans-serif;
-                font-size: 20px;
-                border-radius: 5px;
-                border: 2px solid #0ea5e9;
-                cursor: pointer;
-                transition: background-color 0.3s;
-              ">
-            Download Resume
-          </a>
-        </section>
-
-        <!-- Education -->
-
-        <br />
-        <section class="timeline">
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline" role="img" class="md hydrated" aria-label="book outline"><template
-                  shadowrootmode="open">
-                  <div class="icon-inner">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="ionicon s-ion-icon" viewBox="0 0 512 512">
-                      <title>Book</title>
-                      <path
-                        d="M256 160c16-63.16 76.43-95.41 208-96a15.94 15.94 0 0116 16v288a16 16 0 01-16 16c-128 0-177.45 25.81-208 64-30.37-38-80-64-208-64-9.88 0-16-8.05-16-17.93V80a15.94 15.94 0 0116-16c131.57.59 192 32.84 208 96zM256 160v288"
-                        stroke-linecap="round" stroke-linejoin="round" class="ionicon-fill-none ionicon-stroke-width">
-                      </path>
-                    </svg>
-                  </div>
-                </template></ion-icon>
-            </div>
-            <h3 class="h3">educational background</h3>
           </div>
-          <ol class="timeline-list">
-            <li class="timeline-item">
-              <h4 class="h4 timeline-item-title">
-                KES Shroff College, Mumbai
-              </h4>
-              <span>June 2023 — April 2026</span>
-              <p class="timeline-text">
-                ● Bachelor of Computer Applications <br />
-                ● CGPA - 8.29
-              </p>
-            </li>
-            <li class="timeline-item">
-              <h4 class="h4 timeline-item-title">Viva College</h4>
-              <span>July 2021 - March 2023</span>
-              <p class="timeline-text">
-                ● Higher Secondary (XII HSC) <br />
-                ● Percentage - 87.50%
-              </p>
-            </li>
-            <li class="timeline-item">
-              <h4 class="h4 timeline-item-title">Kumari Vidya Mandir</h4>
-              <span>April 2021</span>
-              <p class="timeline-text">
-                ● School Secondary (X SSC) <br />
-                ● Percentage - 75.80%
-              </p>
-            </li>
-          </ol>
-        </section>
+        </div>
+      </aside>
 
-        <!-- Area Of Interests -->
-        <br /><br />
-        <section class="service">
-          <h3 class="h3 service-title">My Major Area of Interests</h3>
-          <ul class="service-list">
-            <li class="service-item">
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-dev.png" alt="Web development icon" width="40" />
-              </div>
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">HTML, CSS, JavaScript</h4>
-              </div>
-            </li>
-            <li class="service-item">
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-dev.png" alt="Web development icon" width="40" />
-              </div>
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Core Java</h4>
-              </div>
-            </li>
-            <li class="service-item">
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-dev.png" alt="Web development icon" width="40" />
-              </div>
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Python</h4>
-              </div>
-            </li>
-            <li class="service-item">
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-dev.png" alt="Web development icon" width="40" />
-              </div>
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Git & GitHub</h4>
-              </div>
-            </li>
-            <li class="service-item">
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-dev.png" alt="Web development icon" width="40" />
-              </div>
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">MySQL / MongoDB</h4>
-              </div>
-            </li>
-            <li class="service-item">
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-dev.png" alt="Web development icon" width="40" />
-              </div>
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">
-                  IoT & Sensor Integration
-                </h4>
-              </div>
-            </li>
-          </ul>
-        </section>
+      <main id="main-content" class="content-panel">
+        <header class="site-header">
+          <nav class="main-nav" aria-label="Primary navigation">
+            <a href="#home" class="nav-link active" data-nav="home">Home</a>
+            <a href="#about" class="nav-link" data-nav="about">About</a>
+            <a href="#experience" class="nav-link" data-nav="experience"
+              >Experience & Skills</a
+            >
+            <a href="#projects" class="nav-link" data-nav="projects"
+              >Projects</a
+            >
+            <a href="#contact" class="nav-link" data-nav="contact">Contact</a>
+          </nav>
 
-        <!-- My Profiles -->
-        <section class="testimonials">
-          <br /><br />
-          <header>
-            <h2 class="h2 article-title">My Profiles</h2>
-          </header>
-          <ul class="testimonials-list has-scrollbar">
-            <a href="https://github.com/darshanworks" target="_blank">
-              <li class="testimonials-item">
-                <div class="content-card" data-testimonials-item="">
-                  <figure class="testimonials-avatar-box">
-                    <img src="./assets/images/github-logo.png" alt="Daniel lewis" width="60"
-                      data-testimonials-avatar="" />
-                  </figure>
-                  <h4 class="h4 testimonials-item-title" data-testimonials-title="">
-                    Github
-                  </h4>
-                </div>
-              </li>
-            </a>
-
-            <a href="https://www.linkedin.com/in/darshan-malagonvkar-61a244339/" target="_blank">
-              <li class="testimonials-item">
-                <div class="content-card" data-testimonials-item="">
-                  <figure class="testimonials-avatar-box">
-                    <img src="./assets/images/linkedin-logo.png" alt="Emily evans" width="60"
-                      data-testimonials-avatar="" />
-                  </figure>
-                  <h4 class="h4 testimonials-item-title" data-testimonials-title="">
-                    LinkedIn
-                  </h4>
-                </div>
-              </li>
-            </a>
-          </ul>
-        </section>
-
-        <!-- My All Projects -->
-        <br /><br />
-        <header>
-          <h2 class="h2 article-title">My Projects</h2>
+          <div class="header-actions">
+            <button
+              class="icon-button theme-toggle"
+              type="button"
+              aria-label="Switch to dark mode"
+              title="Toggle theme"
+            >
+              <i class="ri-moon-line" aria-hidden="true"></i>
+            </button>
+            <button
+              class="icon-button menu-toggle"
+              type="button"
+              aria-label="Open navigation menu"
+              aria-expanded="false"
+            >
+              <i class="ri-menu-3-line" aria-hidden="true"></i>
+            </button>
+          </div>
         </header>
 
-        <section class="blog-posts">
-          <ul class="blog-posts-list">
+        <div class="mobile-nav" data-mobile-nav>
+          <a href="#home" data-nav="home">Home</a>
+          <a href="#about" data-nav="about">About</a>
+          <a href="#experience" data-nav="experience">Experience</a>
+          <a href="#projects" data-nav="projects">Projects</a>
+          <a href="#contact" data-nav="contact">Contact</a>
+        </div>
 
-            <li class="blog-post-item">
-              <figure class="blog-banner-box">
-                <img src="./assets/images/Inventory-management-project.png" alt="Best fonts every designer"
-                  loading="lazy" />
-              </figure>
-
-              <div class="blog-content">
-                <div class="blog-meta">
-                  <span class="dot"></span>
-                  <p class="blog-category">Full Stack Web Application</p>
-                </div>
-
-                <h3 class="h3 blog-item-title">
-                  Inventory Management System
-                </h3>
-
-                <p class="blog-text">
-                  Tech Stack: HTML, CSS, JavaScript, Node.js, Express.js, MySQL, Railway, Vercel
-                </p>
-                <div class="project-links">
-                  <a href="https://inventory-management-system-nu-rose.vercel.app/" target="_blank"
-                    class="project-btn">
-                    Live Demo
-                  </a>
-
-                  <a href="https://github.com/darshanworks/inventory-management-system" target="_blank"
-                    class="project-btn">
-                    GitHub
-                  </a>
-                </div>
-            </li>
-            <li class="blog-post-item">
-              <figure class="blog-banner-box">
-                <img src="./assets/images/smart-agriculture-project.jpg" alt="Best fonts every designer"
-                  loading="lazy" />
-              </figure>
-
-              <div class="blog-content">
-                <div class="blog-meta">
-                  <span class="dot"></span>
-                  <p class="blog-category">IoT Based Project</p>
-                </div>
-
-                <h3 class="h3 blog-item-title">
-                  Smart Agriculture Monitoring System
-                </h3>
-
-                <p class="blog-text">
-                  Tech Stack: <b>ESP32, DHT22 Sensor, Soil Moisture Sensor, Firebase Realtime Database, HTML, CSS,
-                    JavaScript, Arduino IDE</b>
-                </p>
-                <div class="project-links">
-                  <a href="https://darshanworks.github.io/smart-agriculture-monitoring-system/" target="_blank"
-                    class="project-btn">
-                    Live Demo
-                  </a>
-                  <a href="https://www.youtube.com/watch?v=7iL9VbRqE2c" target="_blank"
-                    class="project-btn">
-                    Demo Video
-                  </a>
-                  <a href="https://github.com/darshanworks/smart-agriculture-monitoring-system" target="_blank"
-                    class="project-btn">
-                    GitHub
-                  </a>
-                </div>
-            </li>
-            <li class="blog-post-item">
-              <figure class="blog-banner-box">
-                <img src="./assets/images/savora-kitchen.png" alt="Best fonts every designer" loading="lazy" />
-              </figure>
-
-              <div class="blog-content">
-                <div class="blog-meta">
-                  <span class="dot"></span>
-                  <p class="blog-category">Frontend Project</p>
-
-                </div>
-
-                <h3 class="h3 blog-item-title">
-                  Modern Responsive Restaurant Website with Interactive UI
-                </h3>
-
-                <p class="blog-text">
-                  Tech Stack: <b>HTML, CSS, JavaScript, Bootstrap 5</b>
-                </p>
-                <div class="project-links">
-                  <a href="https://darshanworks.github.io/savora-restaurant-website/" target="_blank"
-                    class="project-btn">
-                    Live Demo
-                  </a>
-
-                  <a href="https://github.com/darshanworks/savora-restaurant-website" target="_blank"
-                    class="project-btn">
-                    GitHub
-                  </a>
-                </div>
-            </li>
-            <li class="blog-post-item">
-              <figure class="blog-banner-box">
-                <img src="./assets/images/text-to-voice-converter.jpg" alt="Best fonts every designer" loading="lazy" />
-              </figure>
-
-              <div class="blog-content">
-                <div class="blog-meta">
-                  <span class="dot"></span>
-                  <p class="blog-category">Frontend Project</p>
-
-                </div>
-
-                <h3 class="h3 blog-item-title">
-                  Text-to-Voice Converter Web Application
-                </h3>
-
-                <p class="blog-text">
-                  Tech Stack: <b>HTML, CSS, JavaScript, Web Speech API</b>
-                </p>
-                <div class="project-links">
-                  <a href="https://darshanworks.github.io/text-to-speech-converter/" target="_blank"
-                    class="project-btn">
-                    Live Demo
-                  </a>
-
-                  <a href="https://github.com/darshanworks/text-to-speech-converter" target="_blank"
-                    class="project-btn">
-                    GitHub
-                  </a>
-                </div>
-            </li>
-          </ul>
-        </section>
-
-        <!--
-          - testimonials
-        -->
-
-        <section class="testimonials">
-          <br /><br />
-          <h3 class="h3 testimonials-title">Achievements & Activities</h3>
-
-          <ul class="testimonials-list has-scrollbar">
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item="">
-                <div class="testimonials-text" data-testimonials-text="">
-                  <p>
-                    ● Earned a 5-star badge in Java on HackerRank through
-                    competitive programming practice.
-                  </p>
-                </div>
+        <div class="content-scroll">
+          <section id="home" class="section hero-section reveal">
+            <div class="hero-copy">
+              <p class="section-kicker"><span></span> Portfolio</p>
+              <h2>Turning ideas into <em>useful digital products.</em></h2>
+              <p class="hero-description">
+                I’m Darshan, a BCA graduate focused on frontend development,
+                JavaScript, practical software projects, and IoT-based
+                applications. I like building things end-to-end and learning by
+                solving real problems.
+              </p>
+              <div class="hero-actions">
+                <a class="button button--primary" href="#projects"
+                  >View projects
+                  <i class="ri-arrow-right-line" aria-hidden="true"></i
+                ></a>
+                <a
+                  class="button button--secondary"
+                  href="assets/resume/Darshan_Resume.pdf"
+                  download
+                  >Download resume
+                  <i class="ri-download-2-line" aria-hidden="true"></i
+                ></a>
               </div>
-            </li>
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item="">
-                <div class="testimonials-text" data-testimonials-text="">
-                  <p>
-                    ● Built IoT-based academic projects focused on real-time
-                    monitoring and cloud integration.
-                  </p>
-                </div>
+              <div class="hero-metrics">
+                <div><strong>8.29</strong><span>CGPA</span></div>
+                <div><strong>JS</strong><span>Core focus</span></div>
+                <div><strong>Full-Stack</strong><span>Project focus</span></div>
               </div>
-            </li>
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item="">
-                <div class="testimonials-text" data-testimonials-text="">
-                  <p>
-                    ● Regularly practice Data Structures & Algorithms to
-                    improve problem-solving and coding efficiency.
-                  </p>
-                </div>
-              </div>
-            </li>
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item="">
-                <div class="testimonials-text" data-testimonials-text="">
-                  <p>
-                    ● Familiar with basic concepts of AWS Cloud and cloud
-                    computing fundamentals.
-                  </p>
-                </div>
-              </div>
-            </li>
-          </ul>
-        </section>
-
-        <!-- Contact Form -->
-        <br />
-        <section class="contact-form">
-          <h3 class="h3 form-title">Contact Me</h3>
-
-          <form action="" class="form" data-form="">
-            <div class="input-wrapper">
-              <input type="text" name="fullname" class="form-input" placeholder="Full name" required=""
-                data-form-input="" />
-
-              <input type="email" name="email" class="form-input" placeholder="Email address" required=""
-                data-form-input="" />
             </div>
 
-            <textarea name="message" class="form-input" placeholder="Your Message" required=""
-              data-form-input=""></textarea>
+            <div class="hero-visual">
+              <div class="code-window" data-tilt>
+                <div class="window-bar">
+                  <span></span><span></span><span></span>
+                  <small>darshan.js</small>
+                </div>
+                <pre><code><span class="code-keyword">const</span> developer = {
+  name: <span class="code-string">"Darshan"</span>,
+  role: <span class="code-string">"Frontend Developer"</span>,
+  skills: [
+    <span class="code-string">"HTML"</span>, <span class="code-string">"CSS"</span>,
+    <span class="code-string">"JavaScript"</span>, <span class="code-string">"Python"</span>
+  ],
+  mindset: <span class="code-string">"build &amp; improve"</span>
+};</code></pre>
+              </div>
+              <div class="floating-note note-one">
+                <i class="ri-layout-4-line"></i><span>git add .</span>
+              </div>
+              <div class="floating-note note-two">
+                <i class="ri-database-2-line"></i><span>git push</span>
+              </div>
+            </div>
+          </section>
 
-            <button class="form-btn" type="submit" disabled="" data-form-btn="">
-              <ion-icon name="paper-plane" role="img" class="md hydrated" aria-label="paper plane"><template
-                  shadowrootmode="open">
-                  <div class="icon-inner">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="ionicon s-ion-icon" viewBox="0 0 512 512">
-                      <title>Paper Plane</title>
-                      <path
-                        d="M473 39.05a24 24 0 00-25.5-5.46L47.47 185h-.08a24 24 0 001 45.16l.41.13 137.3 58.63a16 16 0 0015.54-3.59L422 80a7.07 7.07 0 0110 10L226.66 310.26a16 16 0 00-3.59 15.54l58.65 137.38c.06.2.12.38.19.57 3.2 9.27 11.3 15.81 21.09 16.25h1a24.63 24.63 0 0023-15.46L478.39 64.62A24 24 0 00473 39.05z">
-                      </path>
-                    </svg>
+          <section id="about" class="section reveal">
+            <div class="section-heading">
+              <div>
+                <p class="section-kicker"><span></span> About</p>
+                <h2>Who I am</h2>
+              </div>
+              <span class="section-number">01</span>
+            </div>
+
+            <div class="about-grid">
+              <article class="surface-card about-main">
+                <div class="card-icon">
+                  <i class="ri-user-3-line" aria-hidden="true"></i>
+                </div>
+                <h3>Practical developer, continuous learner.</h3>
+                <p>
+                  I’m a Computer Applications graduate with a strong interest in
+                  web development and IoT-based solutions. My projects have
+                  included real-time monitoring, responsive websites, browser
+                  APIs, and full-stack application work.
+                </p>
+                <p>
+                  I’m most comfortable when I can take a problem, break it into
+                  smaller pieces, build a working solution, test it, and improve
+                  it. I’m currently looking for opportunities where I can
+                  contribute to real applications while strengthening my
+                  engineering skills.
+                </p>
+              </article>
+
+              <div class="about-stack">
+                <article class="surface-card mini-card">
+                  <span class="mini-label">Education</span>
+                  <h3>BCA</h3>
+                  <p>KES Shroff College, Mumbai</p>
+                  <span class="mini-meta">CGPA 8.29</span>
+                </article>
+                <article class="surface-card mini-card">
+                  <span class="mini-label">Approach</span>
+                  <h3>Build first.</h3>
+                  <p>Learn through real projects, debugging and iteration.</p>
+                </article>
+                <article class="surface-card mini-card">
+                  <span class="mini-label">Interests</span>
+                  <h3>Web + IoT</h3>
+                  <p>
+                    Interfaces, JavaScript, data, sensors and connected systems.
+                  </p>
+                </article>
+              </div>
+            </div>
+          </section>
+
+          <section id="experience" class="section reveal">
+            <div class="section-heading">
+              <div>
+                <p class="section-kicker"><span></span> Experience</p>
+                <h2>Education, skills &amp; focus</h2>
+              </div>
+              <span class="section-number">02</span>
+            </div>
+
+            <div class="experience-grid">
+              <article class="surface-card timeline-card">
+                <div class="card-heading">
+                  <span class="card-icon"
+                    ><i class="ri-graduation-cap-line" aria-hidden="true"></i
+                  ></span>
+                  <div>
+                    <span class="mini-label">Education</span>
+                    <h3>Academic background</h3>
                   </div>
-                </template></ion-icon>
-              <span>Send Message</span>
-            </button>
-          </form>
-        </section>
-      </article>
+                </div>
+
+                <ol class="timeline">
+                  <li>
+                    <div class="timeline-dot"></div>
+                    <div>
+                      <h4>KES Shroff College, Mumbai</h4>
+                      <span class="timeline-date">BCA · CGPA 8.29</span>
+                      <p>
+                        Bachelor of Computer Applications with a focus on
+                        practical software development.
+                      </p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="timeline-dot"></div>
+                    <div>
+                      <h4>Viva College</h4>
+                      <span class="timeline-date">HSC · 87.50%</span>
+                      <p>
+                        Higher Secondary education with a strong academic
+                        foundation.
+                      </p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="timeline-dot"></div>
+                    <div>
+                      <h4>Kumari Vidya Mandir</h4>
+                      <span class="timeline-date">SSC · 75.80%</span>
+                      <p>Secondary school education.</p>
+                    </div>
+                  </li>
+                </ol>
+              </article>
+
+              <article class="surface-card skills-card">
+                <div class="card-heading">
+                  <span class="card-icon"
+                    ><i class="ri-code-box-line" aria-hidden="true"></i
+                  ></span>
+                  <div>
+                    <span class="mini-label">Toolkit</span>
+                    <h3>Technical skills</h3>
+                  </div>
+                </div>
+
+                <div class="skill-list">
+                  <div class="skill-item">
+                    <div><span>HTML / CSS</span><small>Frontend</small></div>
+                    <strong>Strong</strong>
+                  </div>
+                  <div class="skill-item">
+                    <div>
+                      <span>JavaScript</span><small>Frontend &amp; APIs</small>
+                    </div>
+                    <strong>Strong</strong>
+                  </div>
+                  <div class="skill-item">
+                    <div><span>Python</span><small>Programming</small></div>
+                    <strong>Intermediate</strong>
+                  </div>
+                  <div class="skill-item">
+                    <div><span>Java / C++</span><small>Programming</small></div>
+                    <strong>Working</strong>
+                  </div>
+                  <div class="skill-item">
+                    <div><span>MySQL / Firebase</span><small>Data</small></div>
+                    <strong>Strong</strong>
+                  </div>
+                  <div class="skill-item">
+                    <div>
+                      <span>Git / GitHub</span><small>Version control</small>
+                    </div>
+                    <strong>Intermediate</strong>
+                  </div>
+                </div>
+
+                <div class="tech-tags">
+                  <span>Tailwind CSS</span><span>Node.js</span
+                  ><span>Express</span><span>Arduino</span><span>ESP32</span
+                  ><span>AWS basics</span>
+                </div>
+              </article>
+            </div>
+
+            <div class="interest-grid">
+              <div class="interest-intro">
+                <span class="section-kicker"><span></span> What I enjoy</span>
+                <h3>From interface details to connected systems.</h3>
+              </div>
+              <div class="interest-card">
+                <img
+                  src="assets/images/icon-dev.png"
+                  alt="Web development icon"
+                  width="40"
+                  height="40"
+                />
+                <div>
+                  <h4>Web Development</h4>
+                  <p>
+                    Responsive interfaces, clean components and interactive
+                    JavaScript.
+                  </p>
+                </div>
+              </div>
+              <div class="interest-card">
+                <img
+                  src="assets/images/icon-dev.png"
+                  alt="Programming icon"
+                  width="40"
+                  height="40"
+                />
+                <div>
+                  <h4>Problem Solving</h4>
+                  <p>
+                    Breaking requirements into testable, maintainable pieces.
+                  </p>
+                </div>
+              </div>
+              <div class="interest-card">
+                <img
+                  src="assets/images/icon-dev.png"
+                  alt="IoT development icon"
+                  width="40"
+                  height="40"
+                />
+                <div>
+                  <h4>IoT &amp; Data</h4>
+                  <p>
+                    Sensor integration, real-time data and cloud-connected
+                    projects.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section id="projects" class="section reveal">
+            <div class="section-heading">
+              <div>
+                <p class="section-kicker"><span></span> Selected work</p>
+                <h2>Projects I’ve built</h2>
+              </div>
+              <span class="section-number">03</span>
+            </div>
+
+            <div class="project-grid">
+              <article class="project-card reveal-card" data-category="iot">
+                <a
+                  class="project-image"
+                  href="https://darshanworks.github.io/smart-agriculture-monitoring-system/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Open Smart Agriculture Monitoring System live demo"
+                >
+                  <img
+                    src="assets/images/smart-agriculture-project.jpg"
+                    alt="Smart Agriculture Monitoring System project preview"
+                    loading="lazy"
+                  />
+                  <span class="project-overlay"
+                    ><i class="ri-external-link-line" aria-hidden="true"></i
+                  ></span>
+                </a>
+                <div class="project-body">
+                  <div class="project-topline">
+                    <span>IoT project</span
+                    ><i class="ri-arrow-up-right-line" aria-hidden="true"></i>
+                  </div>
+                  <h3>Smart Agriculture Monitoring System</h3>
+                  <p>
+                    Real-time agricultural monitoring using sensors, ESP32 and
+                    Firebase cloud integration.
+                  </p>
+                  <div class="project-tags">
+                    <span>ESP32</span><span>Firebase</span
+                    ><span>JavaScript</span>
+                  </div>
+                  <div class="project-links">
+                    <a
+                      href="https://darshanworks.github.io/smart-agriculture-monitoring-system/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      >Live demo <i class="ri-arrow-right-up-line"></i
+                    ></a>
+                    <a
+                      href="https://github.com/darshanworks/smart-agriculture-monitoring-system"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      >GitHub <i class="ri-github-line"></i
+                    ></a>
+                  </div>
+                </div>
+              </article>
+
+              <article
+                class="project-card reveal-card"
+                data-category="frontend"
+              >
+                <a
+                  class="project-image"
+                  href="https://darshanworks.github.io/savora-restaurant-website/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Open Savora restaurant website"
+                >
+                  <img
+                    src="assets/images/savora-kitchen.png"
+                    alt="Savora restaurant website preview"
+                    loading="lazy"
+                  />
+                  <span class="project-overlay"
+                    ><i class="ri-external-link-line" aria-hidden="true"></i
+                  ></span>
+                </a>
+                <div class="project-body">
+                  <div class="project-topline">
+                    <span>Frontend project</span
+                    ><i class="ri-arrow-up-right-line" aria-hidden="true"></i>
+                  </div>
+                  <h3>Modern Restaurant Website</h3>
+                  <p>
+                    A responsive restaurant experience with interactive UI and
+                    polished visual hierarchy.
+                  </p>
+                  <div class="project-tags">
+                    <span>HTML</span><span>CSS</span><span>JavaScript</span
+                    ><span>Bootstrap</span>
+                  </div>
+                  <div class="project-links">
+                    <a
+                      href="https://darshanworks.github.io/savora-restaurant-website/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      >Live demo <i class="ri-arrow-right-up-line"></i
+                    ></a>
+                    <a
+                      href="https://github.com/darshanworks/savora-restaurant-website"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      >GitHub <i class="ri-github-line"></i
+                    ></a>
+                  </div>
+                </div>
+              </article>
+
+              <article
+                class="project-card reveal-card"
+                data-category="frontend"
+              >
+                <a
+                  class="project-image"
+                  href="https://darshanworks.github.io/text-to-speech-converter/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Open Text-to-Voice Converter"
+                >
+                  <img
+                    src="assets/images/text-to-voice-conveter.jpg"
+                    alt="Text-to-Voice Converter project preview"
+                    loading="lazy"
+                  />
+                  <span class="project-overlay"
+                    ><i class="ri-external-link-line" aria-hidden="true"></i
+                  ></span>
+                </a>
+                <div class="project-body">
+                  <div class="project-topline">
+                    <span>Frontend project</span
+                    ><i class="ri-arrow-up-right-line" aria-hidden="true"></i>
+                  </div>
+                  <h3>Text-to-Voice Converter</h3>
+                  <p>
+                    A browser-based text-to-speech application built around the
+                    Web Speech API.
+                  </p>
+                  <div class="project-tags">
+                    <span>JavaScript</span><span>Web Speech API</span
+                    ><span>CSS</span>
+                  </div>
+                  <div class="project-links">
+                    <a
+                      href="https://darshanworks.github.io/text-to-speech-converter/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      >Live demo <i class="ri-arrow-right-up-line"></i
+                    ></a>
+                    <a
+                      href="https://github.com/darshanworks/text-to-speech-converter"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      >GitHub <i class="ri-github-line"></i
+                    ></a>
+                  </div>
+                </div>
+              </article>
+
+              <article
+                class="project-card reveal-card"
+                data-category="fullstack"
+              >
+                <a
+                  class="project-image"
+                  href="https://inventory-management-system-nu-rose.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Open Researcher project demo"
+                >
+                  <img
+                    src="assets/images/Inventory-management-project.png"
+                    alt="Inventory Management System"
+                    loading="lazy"
+                  />
+                  <span class="project-overlay"
+                    ><i class="ri-external-link-line" aria-hidden="true"></i
+                  ></span>
+                </a>
+                <div class="project-body">
+                  <div class="project-topline">
+                    <span>Full stack project</span
+                    ><i class="ri-arrow-up-right-line" aria-hidden="true"></i>
+                  </div>
+                  <h3>Inventory Management System</h3>
+                  <p>
+                    A research-focused web application project built with a
+                    Python backend and web frontend.
+                  </p>
+                  <div class="project-tags">
+                    <span>JavaScript</span><span>Node.js</span
+                    ><span>Express.js</span><span>MySQL</span>
+                  </div>
+                  <div class="project-links">
+                    <a
+                      href="https://inventory-management-system-nu-rose.vercel.app/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      >Live demo <i class="ri-arrow-right-up-line"></i
+                    ></a>
+                    <a
+                      href="https://github.com/darshanworks/inventory-management-system"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      >GitHub <i class="ri-github-line"></i
+                    ></a>
+                  </div>
+                </div>
+              </article>
+            </div>
+
+            <div class="profiles-strip">
+              <div>
+                <span class="mini-label">More profiles</span>
+                <h3>Find me around the web.</h3>
+              </div>
+              <div class="profile-links">
+                <a
+                  href="https://github.com/darshanworks"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <span class="profile-logo"
+                    ><img
+                      src="assets/images/icons8-github-96.png"
+                      alt=""
+                      width="32"
+                      height="32"
+                  /></span>
+                  <span
+                    ><strong>GitHub</strong><small>@darshanworks</small></span
+                  >
+                  <i class="ri-arrow-up-right-line"></i>
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/darshan-malagonvkar-61a244339/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <span class="profile-logo"
+                    ><img
+                      src="assets/images/linkedin-logo.png"
+                      alt=""
+                      width="32"
+                      height="32"
+                  /></span>
+                  <span
+                    ><strong>LinkedIn</strong
+                    ><small>Professional profile</small></span
+                  >
+                  <i class="ri-arrow-up-right-line"></i>
+                </a>
+                <a href="" target="_blank" rel="noopener noreferrer">
+                  <span class="profile-logo"
+                    ><img
+                      src="assets/images/hackerrank.png"
+                      alt=""
+                      width="32"
+                      height="32"
+                  /></span>
+                  <span
+                    ><strong>HackerRank</strong
+                    ><small>Coding practice</small></span
+                  >
+                  <i class="ri-arrow-up-right-line"></i>
+                </a>
+              </div>
+            </div>
+          </section>
+
+          <section id="contact" class="section reveal">
+            <div class="section-heading">
+              <div>
+                <p class="section-kicker"><span></span> Contact</p>
+                <h2>Let’s talk about an opportunity.</h2>
+              </div>
+              <span class="section-number">04</span>
+            </div>
+
+            <div class="contact-grid">
+              <div class="contact-copy">
+                <article class="surface-card contact-intro">
+                  <span class="card-icon"
+                    ><i class="ri-send-plane-line" aria-hidden="true"></i
+                  ></span>
+                  <h3>Have a project, role or idea?</h3>
+                  <p>
+                    The quickest way to reach me is email. If you’re looking for
+                    someone interested in frontend development, practical
+                    software work or IoT projects, send me a message with the
+                    details.
+                  </p>
+                  <a class="text-link" href="mailto:darshan08m@gmail.com"
+                    >darshan08m@gmail.com <i class="ri-arrow-right-up-line"></i
+                  ></a>
+                </article>
+
+                <div class="contact-cards">
+                  <a
+                    href="mailto:darshan08m@gmail.com"
+                    class="surface-card contact-small"
+                  >
+                    <i class="ri-mail-send-line" aria-hidden="true"></i>
+                    <span
+                      ><small>Email</small><strong>Send an email</strong></span
+                    >
+                  </a>
+                  <a
+                    href="tel:+917249580848"
+                    class="surface-card contact-small"
+                  >
+                    <i class="ri-phone-line" aria-hidden="true"></i>
+                    <span
+                      ><small>Phone</small><strong>+91 7249580848</strong></span
+                    >
+                  </a>
+                </div>
+              </div>
+
+              <form
+                class="surface-card contact-form"
+                id="contact-form"
+                novalidate
+              >
+                <div class="form-heading">
+                  <span class="mini-label">Message</span>
+                  <h3>Start a conversation</h3>
+                </div>
+                <div class="form-grid">
+                  <label>
+                    <span>Name</span>
+                    <input
+                      type="text"
+                      name="name"
+                      autocomplete="name"
+                      placeholder="Your name"
+                      required
+                    />
+                  </label>
+                  <label>
+                    <span>Email</span>
+                    <input
+                      type="email"
+                      name="email"
+                      autocomplete="email"
+                      placeholder="you@example.com"
+                      required
+                    />
+                  </label>
+                </div>
+                <label>
+                  <span>Message</span>
+                  <textarea
+                    name="message"
+                    rows="6"
+                    placeholder="Tell me a little about the opportunity..."
+                    required
+                  ></textarea>
+                </label>
+                <button class="button button--primary" type="submit" disabled>
+                  Send message
+                  <i class="ri-arrow-right-line" aria-hidden="true"></i>
+                </button>
+                <p class="form-status" role="status" aria-live="polite"></p>
+              </form>
+            </div>
+          </section>
+
+          <footer class="site-footer">
+            <p>
+              © <span id="year"></span> Darshan Malagonvkar. All rights
+              reserved.
+            </p>
+          </footer>
+        </div>
+      </main>
     </div>
-  </main>
 
-  <!--
-    - custom js link
-  -->
-  <script src="./assets/js/script.js"></script>
+    <button
+      class="scroll-top-button"
+      id="scroll-top"
+      type="button"
+      aria-label="Scroll to top"
+      title="Scroll to top"
+    >
+      <i class="ri-arrow-up-line" aria-hidden="true"></i>
+    </button>
 
-  <!--
-    - ionicon link
-  -->
-  <script type="module" src="assets/ionicons.esm.js"></script>
-  <script nomodule="" src="assets/ionicons.js"></script>
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-</body>
-
+    <script src="assets/js/script.js"></script>
+    <!-- Legacy local icon paths retained from the original project. The redesigned UI uses Remix Icon CDN. -->
+    <script type="module" src="assets/ionicons.esm.js"></script>
+    <script nomodule src="assets/ionicons.js"></script>
+  </body>
 </html>

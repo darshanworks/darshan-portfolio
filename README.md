@@ -63,13 +63,16 @@ portfolio/
 │   │   └── script.js
 │   │
 │   ├── images/
-│   │   ├── avatar.png
+│   │   ├── myavatar.png
 │   │   ├── dashboard.jpg
 │   │   ├── github.png
 │   │   ├── savora-kitchen.png
 │   │   ├── icon-dev.png
-│   │   ├── linkedin.png
+│   │   ├── icons8-github-96.png
+│   │   ├── linkedin-logo.png
+│   │   ├── hackerrank.png
 │   │   ├── smart-agriculture-project.jpg
+│   │   ├── Inventory-management-project.jpg
 │   │   └── text-to-voice-converter.jpg
 │   │
 │   └── resume/
